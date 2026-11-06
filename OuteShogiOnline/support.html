@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>サポート | 王手将棋オンライン</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Hiragino Sans", "Yu Gothic", sans-serif;
+    line-height: 1.9;
+    max-width: 700px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #333;
+    background-color: #fdfaf3;
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+    padding: 28px 16px 24px;
+    margin-bottom: 2em;
+    background: linear-gradient(180deg, #f6ecd9, #fdfaf3);
+    border: 1px solid #efe1c8;
+    border-radius: 20px;
+  }
+  .app-icon {
+    display: block;
+    width: 112px;
+    height: 112px;
+    border-radius: 25px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.16);
+  }
+  h1 {
+    font-size: 1.7em;
+    margin: 0;
+    line-height: 1.3;
+  }
+  .tagline {
+    margin: 0;
+    color: #8b5a2b;
+    font-size: 0.95em;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 1.2em;
+    margin-top: 2em;
+    color: #8b5a2b;
+  }
+  p, li {
+    font-size: 0.95em;
+  }
+  .promo-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+    margin-top: 1em;
+  }
+  .promo-grid img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  }
+  @media (max-width: 520px) {
+    .promo-grid { grid-template-columns: repeat(2, 1fr); }
+  }
+  .link-box {
+    background-color: #f6ecd9;
+    padding: 1em 1.2em;
+    border-radius: 8px;
+    font-size: 0.95em;
+  }
+  a {
+    color: #8b5a2b;
+  }
+  .contact-box {
+    background-color: #f6ecd9;
+    padding: 1em 1.2em;
+    border-radius: 8px;
+    font-size: 0.95em;
+  }
+  hr {
+    border: none;
+    border-top: 1px solid #efe1c8;
+    margin: 2.5em 0 1.5em;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <img class="app-icon" src="asset/icon.png" alt="王手将棋オンライン アプリアイコン">
+  <h1>王手将棋オンライン</h1>
+  <p class="tagline">先に王手をかけた方が勝ち。オンラインでレート戦。</p>
+</header>
+
+<h2>概要</h2>
+<p>先に王手をかけた方が勝ちになる「王手将棋」を、オンラインで対局できるアプリです。1局が数分で終わる、スピード感のある読み合いを楽しめます。オンラインでのランダムな相手との対局(3分切れ負け・レート戦・ランキング)をメインに、友達との対局(部屋を作って対局。3分切れ負け・レートの増減なし)、1台の端末を使った2人での対局、3段階の強さのAIとの対局(先手・後手を選べます)ができます。</p>
+<p>オンライン対局で不適切なユーザー名を見つけた場合は、ランキングや対局結果の画面の「…」から通報・ブロックできます。そのほかの不適切な利用者の報告やお問い合わせは、下記の連絡先までお願いいたします。</p>
+
+<div class="promo-grid">
+  <img src="asset/promo_01.png" alt="先に王手した方が、勝ち。一手の油断が命取り。序盤から気が抜けない。">
+  <img src="asset/promo_02.png" alt="ランダムな相手と、レート戦。レート戦を戦い抜き、頂点を目指そう！">
+  <img src="asset/promo_03.png" alt="部屋を作って、友だちと対局。部屋番号で遠くの友だちと。1台の端末でも遊べる。">
+  <img src="asset/promo_04.png" alt="3段階のAIと、対局できる。練習や肩慣らしに。先手・後手も選べる。">
+</div>
+
+<h2>ルール</h2>
+<ul>
+  <li>先に相手の玉に王手をかけた方が勝ちです。</li>
+  <li>持ち駒を打って王手をかけても勝ちです(歩を打っての王手も勝ちになります)。</li>
+  <li>それ以外のルールは通常の将棋と同じです(同じ局面が4回現れたら千日手で引き分け)。</li>
+  <li>自分の玉を取られる形になる手は指せません。</li>
+</ul>
+
+<h2>オンライン対局(レート戦)の勝ち負けについて</h2>
+<ul>
+  <li>ランダムな相手との対局で、相手が20秒見つからないときはBOTと対局します。BOTに勝つとレートが上がり、負けてもレートは下がりません。</li>
+  <li>ランダムな相手との対局(レート戦)では、相手が決まったあと(「マッチングしました」の画面が出たあと)にアプリを閉じたり、60秒以上アプリから離れたり通信が切れたりすると、対局が始まる前でも負けになります。</li>
+  <li>対局中にアプリを閉じたり離れたりした場合は、55秒以内にアプリを開き直せば対局に戻れます。それを過ぎると戻れず、切断負けになります。</li>
+  <li>友達との対局では、レートは変わりません。</li>
+</ul>
+
+<h2>クレジット</h2>
+<ul>
+  <li>効果音:<a href="https://on-jin.com/" target="_blank" rel="noopener">On-Jin ～音人～</a>(https://on-jin.com/)</li>
+  <li>効果音:<a href="https://soundeffect-lab.info/" target="_blank" rel="noopener">効果音ラボ</a>(https://soundeffect-lab.info/)</li>
+  <li>駒の書体:Kaisei Tokumin(SIL Open Font License 1.1)</li>
+</ul>
+<p>本アプリに含まれる効果音を取り出して再配布することはできません。</p>
+
+<h2>プライバシーポリシー</h2>
+<div class="link-box">
+  <a href="privacy-policy.html">プライバシーポリシーはこちら</a>
+</div>
+
+<hr>
+
+<h2>Contact</h2>
+<div class="contact-box">
+  <p style="margin:0;">e-mail : <a href="mailto:renfujii.apps@gmail.com">renfujii.apps@gmail.com</a></p>
+</div>
+
+</body>
+</html>
